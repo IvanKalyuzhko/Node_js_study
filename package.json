@@ -4,11 +4,12 @@
   "description": "опис до проекту",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env PORT=5000 NODE_ENV=production node ./lessons/process.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "express": "^4.19.2"
   },
   "devDependencies": {
